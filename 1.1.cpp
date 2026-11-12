@@ -20,8 +20,7 @@ int main() {
         bill = bill + bill * 0.05;
     } else if (late == 1) {
         bill = bill + bill * 0.10;
-    }
-
-    cout << "Final Bill: Rs. " << bill;
+    }else
+        cout << "Final Bill: Rs. " << bill;
     return 0;
 }
